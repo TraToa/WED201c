@@ -1,0 +1,37 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    background-color: whitesmoke;
+}
+
+header {
+    background-color: whitesmoke;
+}
+
+nav {
+    background-color: whitesmoke;
+}
+
+main {
+    background-color: whitesmoke;
+    font-size: small;
+}
+
+footer {
+    background-color: whitesmoke;
+}
+
+li {
+    display: inline;
+    width: 10pt;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+p {
+    line-height: 15pt;
+}
