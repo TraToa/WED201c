@@ -14,10 +14,7 @@ function upDate(previewPic){
     var src = previewPic.src
 
     element.innerHTML = alt
-
-    let style = document.createElement("style");
-    style.innerHTML = "#myBox { background-image: url(" + src + "); }";
-    document.head.appendChild(style);
+    element.style.backgroundImage = "url(" + src + ")"
 }
 
 function unDo(){
@@ -32,11 +29,5 @@ function unDo(){
     var element = document.getElementById("image")
 
     element.innerHTML = "Hover over an image below to display here."
-
-    // let sheet = document.styleSheets[0];
-    // for (let rule of sheet.cssRules) {
-    //     if (rule.selectorText === "#image") {
-    //         rule.style.backgroundImage = "url(" + ")"
-    //     }
-    // }
+    element.style.backgroundImage = "url()"
 }
