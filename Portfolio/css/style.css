@@ -1,0 +1,70 @@
+body {
+    color: white;
+    background-color: #2f2f2f;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.navDiv {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.list {
+    padding: 0;
+}
+
+.antialiased {
+    -webkit-font-smoothing: antialiased;
+}
+
+.center {
+    text-align: center;
+}
+
+.toggler {
+    position: fixed;
+    border-color: white;
+}
+
+.navigation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 35vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #262626;
+    align-items: center;
+    padding: 1rem;
+}
+
+.navItem {
+    padding: 1rem 0;
+}
+
+@media (min-width: 992px) {
+    .navigation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 15rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #262626;
+    align-items: center;
+    padding: 1rem;
+}
+}
